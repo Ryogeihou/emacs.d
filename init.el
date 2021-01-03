@@ -53,6 +53,8 @@
 (maybe-require-package 'scratch)
 (require-package 'command-log-mode)
 
+
+
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)
@@ -121,6 +123,7 @@
 (require 'init-clojure)
 (require 'init-clojure-cider)
 (require 'init-common-lisp)
+;(require 'emmet-mode)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))

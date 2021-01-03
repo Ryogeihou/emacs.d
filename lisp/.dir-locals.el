@@ -3,3 +3,4 @@
 
 ((emacs-lisp-mode
   (no-byte-compile . t)))
+(require 'emmet-mode)

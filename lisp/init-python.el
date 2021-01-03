@@ -23,7 +23,8 @@
     ;; by default we enable it only when working locally.
     (add-hook 'python-mode-hook
               (lambda () (unless (file-remote-p default-directory)
-                           (anaconda-mode 1))))
+                           (anaconda-mode 0))))
+    ;;  1 > 0 Ryo
     (add-hook 'anaconda-mode-hook
               (lambda ()
                 (anaconda-eldoc-mode (if anaconda-mode 1 0)))))
